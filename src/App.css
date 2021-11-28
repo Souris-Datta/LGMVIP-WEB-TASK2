@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Tourney:wght@900&display=swap');
+body{
+  background: linear-gradient(rgba(44, 233, 192, 0.836),rgb(174, 238, 90),rgba(231, 101, 101, 0.911));
+  background-repeat: no-repeat;
+}
+button{
+  
+  border-radius: 5px;
+  border: none;
+  background-image: linear-gradient(rgba(44, 233, 192, 0.836),rgb(174, 238, 90));
+  color: black;
+  padding: 12px;
+  
+}
+button:hover{
+  transition: 200ms;
+  transform:scale(1.1);
+}
+button:focus{
+  outline: none;
+}
+nav{
+  color: rgb(238, 205, 18);
+  background-attachment: fixed;
+  background-color: rgba(104, 104, 104, 0.747);
+  
+}
+.loader{
+  margin: 0 auto;
+}
+.avatar{
+  border-radius: 70px;
+  margin-bottom: 10px;
+}
+#main{
+  padding: 15px 50px;
+  margin: 0 auto;
+  display: none;
+}
+#main img{
+  animation-delay: 5s;
+}
+.profile {
+  max-width: 300px;
+  margin: 15px auto;
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+  border-color: rgba(238, 32, 17, 0.473);
+  border-style:solid;
+  border-width: 7px;
+  border-radius: 20px;
+  background: linear-gradient(-45deg , #79d5ff, #31ecae);
+}
+.profile:hover{
+  transition:500ms;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.6);
+}
+.name{
+  font-family: cursive;
+  font-style: italic;
+  font-variant: small-caps;
+  color: rgba(60, 92, 18, 0.986);
+  font-size:25px;
+  font-weight: bold;
+}
+.email {
+  background-color: #ddb8b8b7;
+  border-radius: 40px;
+  font-family: cursive ;
+  font-size: 18px;
+  overflow-wrap: break-word;
+}
